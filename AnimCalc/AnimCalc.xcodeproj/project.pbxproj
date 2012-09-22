@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF4BE6C9160DE07300E32F94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BE6C8160DE07300E32F94 /* UIKit.framework */; };
+		BF4BE6CB160DE07300E32F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BE6CA160DE07300E32F94 /* Foundation.framework */; };
+		BF4BE6CD160DE07300E32F94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4BE6CC160DE07300E32F94 /* CoreGraphics.framework */; };
+		BF4BE6D3160DE07400E32F94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE6D1160DE07400E32F94 /* InfoPlist.strings */; };
+		BF4BE6D5160DE07400E32F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BE6D4160DE07400E32F94 /* main.m */; };
+		BF4BE6D9160DE07500E32F94 /* AnimCalcAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BE6D8160DE07500E32F94 /* AnimCalcAppDelegate.m */; };
+		BF4BE6DB160DE07900E32F94 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE6DA160DE07900E32F94 /* Default.png */; };
+		BF4BE6DD160DE07900E32F94 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE6DC160DE07900E32F94 /* Default@2x.png */; };
+		BF4BE6DF160DE07900E32F94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE6DE160DE07900E32F94 /* Default-568h@2x.png */; };
+		BF4BE6E2160DE07A00E32F94 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4BE6E0160DE07A00E32F94 /* MainStoryboard.storyboard */; };
+		BF4BE6E5160DE07A00E32F94 /* AnimCalcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4BE6E4160DE07A00E32F94 /* AnimCalcViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF4BE6C4160DE07300E32F94 /* AnimCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF4BE6C8160DE07300E32F94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF4BE6CA160DE07300E32F94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF4BE6CC160DE07300E32F94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF4BE6D0160DE07400E32F94 /* AnimCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimCalc-Info.plist"; sourceTree = "<group>"; };
+		BF4BE6D2160DE07400E32F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF4BE6D4160DE07400E32F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF4BE6D6160DE07500E32F94 /* AnimCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimCalc-Prefix.pch"; sourceTree = "<group>"; };
+		BF4BE6D7160DE07500E32F94 /* AnimCalcAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimCalcAppDelegate.h; sourceTree = "<group>"; };
+		BF4BE6D8160DE07500E32F94 /* AnimCalcAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimCalcAppDelegate.m; sourceTree = "<group>"; };
+		BF4BE6DA160DE07900E32F94 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF4BE6DC160DE07900E32F94 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BF4BE6DE160DE07900E32F94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF4BE6E1160DE07A00E32F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF4BE6E3160DE07A00E32F94 /* AnimCalcViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimCalcViewController.h; sourceTree = "<group>"; };
+		BF4BE6E4160DE07A00E32F94 /* AnimCalcViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimCalcViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF4BE6C1160DE07300E32F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BE6C9160DE07300E32F94 /* UIKit.framework in Frameworks */,
+				BF4BE6CB160DE07300E32F94 /* Foundation.framework in Frameworks */,
+				BF4BE6CD160DE07300E32F94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF4BE6B9160DE07300E32F94 = {
+			isa = PBXGroup;
+			children = (
+				BF4BE6CE160DE07300E32F94 /* AnimCalc */,
+				BF4BE6C7160DE07300E32F94 /* Frameworks */,
+				BF4BE6C5160DE07300E32F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF4BE6C5160DE07300E32F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BE6C4160DE07300E32F94 /* AnimCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF4BE6C7160DE07300E32F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BE6C8160DE07300E32F94 /* UIKit.framework */,
+				BF4BE6CA160DE07300E32F94 /* Foundation.framework */,
+				BF4BE6CC160DE07300E32F94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4BE6CE160DE07300E32F94 /* AnimCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BE6D7160DE07500E32F94 /* AnimCalcAppDelegate.h */,
+				BF4BE6D8160DE07500E32F94 /* AnimCalcAppDelegate.m */,
+				BF4BE6E0160DE07A00E32F94 /* MainStoryboard.storyboard */,
+				BF4BE6E3160DE07A00E32F94 /* AnimCalcViewController.h */,
+				BF4BE6E4160DE07A00E32F94 /* AnimCalcViewController.m */,
+				BF4BE6CF160DE07400E32F94 /* Supporting Files */,
+			);
+			path = AnimCalc;
+			sourceTree = "<group>";
+		};
+		BF4BE6CF160DE07400E32F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF4BE6D0160DE07400E32F94 /* AnimCalc-Info.plist */,
+				BF4BE6D1160DE07400E32F94 /* InfoPlist.strings */,
+				BF4BE6D4160DE07400E32F94 /* main.m */,
+				BF4BE6D6160DE07500E32F94 /* AnimCalc-Prefix.pch */,
+				BF4BE6DA160DE07900E32F94 /* Default.png */,
+				BF4BE6DC160DE07900E32F94 /* Default@2x.png */,
+				BF4BE6DE160DE07900E32F94 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF4BE6C3160DE07300E32F94 /* AnimCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF4BE6E8160DE07A00E32F94 /* Build configuration list for PBXNativeTarget "AnimCalc" */;
+			buildPhases = (
+				BF4BE6C0160DE07300E32F94 /* Sources */,
+				BF4BE6C1160DE07300E32F94 /* Frameworks */,
+				BF4BE6C2160DE07300E32F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimCalc;
+			productName = AnimCalc;
+			productReference = BF4BE6C4160DE07300E32F94 /* AnimCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF4BE6BB160DE07300E32F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AnimCalc;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Systems Power";
+			};
+			buildConfigurationList = BF4BE6BE160DE07300E32F94 /* Build configuration list for PBXProject "AnimCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF4BE6B9160DE07300E32F94;
+			productRefGroup = BF4BE6C5160DE07300E32F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF4BE6C3160DE07300E32F94 /* AnimCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF4BE6C2160DE07300E32F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BE6D3160DE07400E32F94 /* InfoPlist.strings in Resources */,
+				BF4BE6DB160DE07900E32F94 /* Default.png in Resources */,
+				BF4BE6DD160DE07900E32F94 /* Default@2x.png in Resources */,
+				BF4BE6DF160DE07900E32F94 /* Default-568h@2x.png in Resources */,
+				BF4BE6E2160DE07A00E32F94 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF4BE6C0160DE07300E32F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF4BE6D5160DE07400E32F94 /* main.m in Sources */,
+				BF4BE6D9160DE07500E32F94 /* AnimCalcAppDelegate.m in Sources */,
+				BF4BE6E5160DE07A00E32F94 /* AnimCalcViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF4BE6D1160DE07400E32F94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4BE6D2160DE07400E32F94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF4BE6E0160DE07A00E32F94 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF4BE6E1160DE07A00E32F94 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF4BE6E6160DE07A00E32F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF4BE6E7160DE07A00E32F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF4BE6E9160DE07A00E32F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimCalc/AnimCalc-Prefix.pch";
+				INFOPLIST_FILE = "AnimCalc/AnimCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF4BE6EA160DE07A00E32F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimCalc/AnimCalc-Prefix.pch";
+				INFOPLIST_FILE = "AnimCalc/AnimCalc-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF4BE6BE160DE07300E32F94 /* Build configuration list for PBXProject "AnimCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4BE6E6160DE07A00E32F94 /* Debug */,
+				BF4BE6E7160DE07A00E32F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF4BE6E8160DE07A00E32F94 /* Build configuration list for PBXNativeTarget "AnimCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF4BE6E9160DE07A00E32F94 /* Debug */,
+				BF4BE6EA160DE07A00E32F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF4BE6BB160DE07300E32F94 /* Project object */;
+}
