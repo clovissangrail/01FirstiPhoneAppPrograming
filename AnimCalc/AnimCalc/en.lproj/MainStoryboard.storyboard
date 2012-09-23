@@ -37,6 +37,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="equalButtonPressed" destination="2" eventType="touchUpInside" id="1Ta-sb-Ths"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GOo-NY-qII">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -47,6 +50,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operatorButtonPressed:" destination="2" eventType="touchUpInside" id="c4p-id-q37"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="button3" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vf3-BN-Nub">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -99,6 +105,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operatorButtonPressed:" destination="2" eventType="touchUpInside" id="e0Z-RF-wrn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="button6" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Sc-Yx-mUk">
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
@@ -197,6 +206,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operatorButtonPressed:" destination="2" eventType="touchUpInside" id="qMu-7h-Dpr"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hKg-oh-b89">
                                 <constraints>
@@ -211,6 +223,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="clearButtonPressed" destination="2" eventType="touchUpInside" id="hXK-bK-0X9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KY-Xj-0hX">
                                 <constraints>
@@ -224,6 +239,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="operatorButtonPressed:" destination="2" eventType="touchUpInside" id="WyZ-6i-laK"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="calcurationResultLabel" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OIv-jW-29u">
                                 <constraints>
@@ -319,7 +337,10 @@
         <class className="AnimCalcViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/AnimCalcViewController.h"/>
             <relationships>
+                <relationship kind="action" name="clearButtonPressed"/>
+                <relationship kind="action" name="equalButtonPressed"/>
                 <relationship kind="action" name="numericButtonPressed:"/>
+                <relationship kind="action" name="operatorButtonPressed:"/>
                 <relationship kind="outlet" name="calculationResultLabel" candidateClass="UILabel"/>
             </relationships>
         </class>

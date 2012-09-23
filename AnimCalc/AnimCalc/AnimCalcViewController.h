@@ -13,5 +13,9 @@
 @property (weak, nonatomic) IBOutlet UILabel *calculationResultLabel;
 
 - (IBAction)numericButtonPressed:(id)sender;
+- (void)updateResultLabel;
+- (IBAction)clearButtonPressed;
+- (IBAction)equalButtonPressed;
+- (IBAction)operatorButtonPressed:(id)sender;
 
 @end
