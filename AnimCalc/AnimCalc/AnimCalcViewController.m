@@ -35,6 +35,7 @@
 
 - (IBAction)numericButtonPressed:(id)sender {
     UIButton *button = (UIButton*)sender;
+    [self animateButton:button];
     NSString *numericChar = button.titleLabel.text;
     int number = [numericChar intValue];
     
@@ -111,5 +112,23 @@
     [self updateResultLabel];
 }
 
+- (void)animateButton:(UIButton*)button{
+    [UIView animateWithDuration:0.3
+                          delay:0
+                        options:(UIViewAnimationOptionAllowUserInteraction | UIViewAnimationOptionCurveEaseOut)
+                     animations:^{
+                         button.transform = CGAffineTransformMakeScale(1.2, 1.2);
+                     }
+                     completion:^(BOOL complete){
+                         [UIView
+                          animateWithDuration:0.1
+                                               delay:0
+                                             options:(UIViewAnimationOptionAllowUserInteraction | UIViewAnimationOptionCurveEaseIn)
+                                          animations:^{
+                                              button.transform = CGAffineTransformIdentity;
+                                          }
+                     completion:^(BOOL complete){}];
+                     }];
+}
 
 @end

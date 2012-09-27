@@ -17,5 +17,6 @@
 - (IBAction)clearButtonPressed;
 - (IBAction)equalButtonPressed;
 - (IBAction)operatorButtonPressed:(id)sender;
+- (void)animateButton:(UIButton*)button;
 
 @end
