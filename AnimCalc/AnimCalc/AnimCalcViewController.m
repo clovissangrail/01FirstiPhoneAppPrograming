@@ -38,6 +38,26 @@
     [self animateButton:button];
     NSString *numericChar = button.titleLabel.text;
     int number = [numericChar intValue];
+
+    UILabel *label = [[UILabel alloc] initWithFrame:button.frame];
+    label.text = button.titleLabel.text;
+    label.font = [UIFont boldSystemFontOfSize:20];
+    label.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:label];
+    
+    CGRect cl_rect = _calculationResultLabel.frame;
+    float cx = CGRectGetMaxX(cl_rect);
+    float cy = _calculationResultLabel.center.y;
+        [UIView animateWithDuration:0.4
+                         animations:^{
+                             label.center = CGPointMake(cx, cy);
+                             label.alpha = 0.1;
+                         }
+         completion:^(BOOL complate){
+             [label removeFromSuperview];
+         }
+         ];
+    
     
     if ([operatorString isEqualToString:@"="]) {
         calculationValue = 0;
@@ -132,3 +152,4 @@
 }
 
 @end
+ 
